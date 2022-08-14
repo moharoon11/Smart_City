@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+    list-style-type:none;
+   
+}
+body{
+    background-color: red;
+}
+#main-heading{
+    margin-top:4%;
+    
+}
+#nav-container{
+    width: 100%;
+    position: fixed;
+    top:0;
+}
+#nav{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-logo-container .logo-text{
+    margin-left: 10px;
+    padding:10px;
+    font-size: 24px;
+}
+#nav-list{
+    display:flex;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+
+}
+#nav-list .list{
+    margin-left: 10px;
+    padding:10px;
+    font-size: 24px;
+    list-style-type: none;
+}
+#nav-list .list-link{
+    text-decoration: none;
+    cursor:pointer;
+}
+#home-img-container{
+    margin-top:65px;
+}
+#home-img-container .main-img{
+    background-image: url(../images/pollution-image2.jpg);
+    height:90vh;
+}
+
+
+
+
+#nav-list #log-in{
+    padding:10px;
+    background: blue;
+    font-size: 16px;
+    border-radius: 5px;
+    color:white;
+    cursor:pointer;
+    outline:none;
+    border:none;
+    
+}
+
+.main-img{
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+}
+
+#main-heading{
+    font-size: 30px;
+    margin-left:12px;
+    align-items: center;
+    justify-content: center;
+    margin-left:200px;
+    color:white;
+}
+
+#main-para{
+    font-size: 17px;
+    margin-left:200px;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    margin-top:10px;
+}
+#main-quote{
+    font-size: 40px;
+    margin-left:12px;
+    align-items: center;
+    justify-content: center;
+    margin-left:200px;
+    margin-top: 10px;
+    color: white;
+    word-spacing: 5px;
+}
+
+#content-container{
+    margin:10px;
+    border:4px solid  black;
+    padding:20px;
+    background-color: beige;
+    max-width: 95%;
+    margin:4%;
+
+}
+#content-heading{
+    font-size:30px;
+}
+#content-heading-list{
+    margin:13px;
+    padding:6px;
+    font-size:22px;
+}
+#content-heading-details .five-problems{
+    font-size: 22px;
+}
+#content-heading-details .problem-description{
+    text-indent: 5%;
+    font-size: 20px;
+    text-align: justify;
+    padding:20px;
+    margin-top:10px;
+    word-spacing: 3%;
+}
+#content-heading-details .questions{
+    color:red;
+    font-size:25px;
+    
+  
+}
+#content-heading-details .question1{
+    margin-left: -8%;
+    
+}
+#content-heading-details .question2{
+    margin-left: -1%;
+}
+#content-heading-details .question3{
+    margin-left: -1%;
+}
+#content-heading-details .pq1{
+   margin-left:-7%;
+}
+
+#content-heading-details .tq1{
+    margin-left:-6%;
+ }
+ #content-heading-details .wq1{
+    margin-left:-5%;
+ }
+
+ #content-heading-details .answers{
+    text-indent: 4%;
+    text-align: justify;
+    font-size: 21px;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+ }
+ #content-heading-details .last{
+    margin-left: -5%;
+ }
+ #content-heading-details .answer-list{
+    font-size:20px;
+    padding-top:-5px;
+    margin-left:40px;
+    margin-bottom: 1%;
+ }
+
+ #current-page{
+    color:darkslateblue;
+    background-color: red;
+    padding:10px;
+    border-radius:5px;
+ }
+
+

@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#logo-heading{
+    margin-left: 20px;
+    font-size: 25px;
+}
+#un-list{
+    font-size: 23px;
+    padding:6px;
+    margin-left:4%;
+}
+#pollution-section #un-list-items{
+    margin:10px;
+}
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+#types-of-pollution{
+    font-size:23px;
+
+}
+#pollution-types{
+    font-size: 23px;
+    padding:6px;
+    margin-left:4%;
+}
+#pollution-types li{
+    margin:10px;
+}
+#nav-list{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+#nav-list .list-item{
+    padding:13px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+#nav-list .list-link{
+    text-decoration: none;
+}
+#content-container{
+    margin-left:5%;
+}
+
+h1{
+    font-size: 30px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left:10px;
+    padding:10px;
+}
+p{
+    max-width: 85%;
+    font-size: 24px;
+    text-align: justify;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left:10px;
+}
+h3{
+    font-size: 23;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left:10px;
+}
+.questions{
+    font-size:26px;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left:10px;
+}
+
+#pollution-section{
+    max-width: 90%;
+    margin:5%;
+    border: 2px solid black;
+
+}
+#current-page{
+    color:darkslateblue;
+    background-color: red;
+    padding:10px;
+    border-radius:5px;
+ }
+
+
