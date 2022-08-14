@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../Css/discussion.css">
+    <title>Info City</title>
+</head>
+<body>
+    <sectioin id="nav-container">
+
+        <div id="nav">
+
+            <div id="nav-logo-container">
+             <img src="" class="logo">
+             <span class="logo-text">INFO CITIES</span>
+            </div>
+            <div>
+             <ul id="nav-list">
+               <li class="list"><a class="list-link" href="../Html/mainpage.html">Home</a></li>
+               <li class="list active"><a id="current-page" class="list-link" href="#">Discussion</a></li>
+               <li class="list"><a class="list-link" href="../Html/Problems.html">Problems</a></li>
+               <li><a href="login.html" target="_blank"><button id="log-in">Log in</button></a></li>
+             </ul>
+            </div>
+
+        </div>
+       
+    </sectioin>
+    <section id="about">
+        <h1 id="about-heading">About This Page</h1>
+        <p id="about-content">In this page whatever doubts you have You can ask in this page from other users.
+            feel free to ask anything related to the topic. Dont misuse this section for your own fun.
+            This will affect other users so ask things related to this topic only
+        </p>
+       
+    </section>
+
+    <section id="question-section">
+        <h1>Problem can be asked here</h1>
+        <div class="question-container">
+            <h3 id="title-heading">Enter the title of your problem</h3>
+          <input id="title" type="text" placeholder="Enter the Title">
+          <h3 id="title-textarea">Ask your problems in this area</h3>
+            <textarea id="textarea" rows="13"cols="15"> </textarea>
+             <button id="add-question">Add Question</button>
+          
+           
+        </div>
+
+    </section>
+       <section id="problem-container-section">
+        
+        <div class="problem-container">
+       
+        </div>
+        
+       </section>
+
+       <section class="answer-section">
+            <h1>Answer can be given here</h1>
+            <div id="answer-container-div">
+                <h3 id="answer-heading">Enter the title of your question</h3>
+                <input type="text" id="answer-title" placeholder="Enter the question title">
+                <h3 id="answer-textarea-title">Give your solution in this area</h3>
+                <textarea id="answer-textarea" rows="13"cols="15"> </textarea><br>
+                <button id="add-answer">Post Answer</button>
+           
+           
+            </div>
+       </section>
+
+       <section id="answer-container-section ">
+        
+        <div class="answer-container">
+       
+        </div>
+        
+       </section>
+       
+
+     
+       <script src="../js/discussion.js"></script>
+</body>
+</html>
